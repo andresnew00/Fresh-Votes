@@ -19,21 +19,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7948be-ec23-4d55-8b61-828d617bd7d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/CommentId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/Feature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/Vote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/VoteId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/controllers/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +46,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="freshvotes_002_domain_objects_added" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -90,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FreshvotesApplication" />
+        <item itemvalue="Application.FreshvotesApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -109,11 +113,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="194" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603424009946">
@@ -124,26 +141,30 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="533" y="104" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1603424786562" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603425090921">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603468997322">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603425090921" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603425090919">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603468997322" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603468997321">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603425090919" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603425090918">
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603468997321" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603468997321">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603425090918" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603425090921">
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603468997321" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603468997322">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603425090921" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603468997322" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1603424917874">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1603424917874" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603426485823">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603426485823" />
     <state x="385" y="144" key="search.everywhere.popup" timestamp="1603404215885">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
