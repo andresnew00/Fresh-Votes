@@ -29,9 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7948be-ec23-4d55-8b61-828d617bd7d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/controllers/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/WebSecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="freshvotes_002_domain_objects_added" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,30 +141,42 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="533" y="104" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1603424786562" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603468997322">
+    <state x="135" y="91" key="DiffContextDialog" timestamp="1603469698816">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603468997322" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603468997321">
+    <state x="135" y="91" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1603469698816" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603473297604">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603468997321" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603468997321">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603473297604" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603473297602">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603468997321" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603468997322">
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603473297602" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603473297601">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603468997322" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603473297601" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603473297603">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603473297603" />
+    <state x="144" y="92" key="MergeDialog" timestamp="1603469660786">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="144" y="92" key="MergeDialog/0.23.1440.797@0.23.1440.797" timestamp="1603469660786" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1603424917874">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1603424917874" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603426485823">
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603473361415">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603426485823" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603473361415" />
+    <state x="485" y="59" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603469700129">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="485" y="59" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.797@0.23.1440.797" timestamp="1603469700129" />
     <state x="385" y="144" key="search.everywhere.popup" timestamp="1603404215885">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
