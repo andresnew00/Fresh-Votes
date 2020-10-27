@@ -29,10 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7948be-ec23-4d55-8b61-828d617bd7d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/controllers/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/controllers/DashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="freshvotes_005_loginpage" />
+        <entry key="$PROJECT_DIR$" value="freshvotes_007_enablingCSRF" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FreshvotesApplication" />
         <item itemvalue="Application.FreshvotesApplication" />
         <item itemvalue="Application.FreshvotesApplication" />
         <item itemvalue="Application.FreshvotesApplication" />
@@ -148,22 +149,26 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="135" y="91" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1603469698816" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603476598593">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603815346706">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603476598593" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603476598592">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603477766082" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1603815346706" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603815346704">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603476598592" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603476598592">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603477766080" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1603815346704" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603815346703">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603476598592" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603476598592">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603477766079" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1603815346703" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603815346705">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603476598592" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603477766081" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1603815346705" />
     <state x="144" y="92" key="MergeDialog" timestamp="1603469660786">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -172,10 +177,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1603424917874" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603474781758">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603815534584">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603474781758" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603476874807" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1603815534584" />
     <state x="485" y="59" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603469700129">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
