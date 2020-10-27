@@ -29,10 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf7948be-ec23-4d55-8b61-828d617bd7d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/repositories/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/CustomSecurityUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/service/UserDetailsServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/java/com/freshvotes/freshvotes/security/WebSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/freshvotes/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,10 +75,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.freshvotes.freshvotes.security" />
       <recent name="com.freshvotes.freshvotes.domain" />
     </key>
   </component>
@@ -110,6 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603402902185</updated>
     </task>
+    <task id="LOCAL-00001" summary="enabling csrf">
+      <created>1603815692392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603815692392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,52 +150,58 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="enabling csrf" />
+    <option name="LAST_COMMIT_MESSAGE" value="enabling csrf" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="458" y="194" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1603424009946">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="458" y="194" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.797@0.23.1440.797" timestamp="1603424009946" />
-    <state x="533" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1603424786562">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="533" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1603819426339">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="533" y="104" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1603424786562" />
+    <state x="533" y="104" key="#com.intellij.ide.util.MemberChooser/0.23.1440.798@0.23.1440.798" timestamp="1603819426339" />
     <state x="135" y="91" key="DiffContextDialog" timestamp="1603469698816">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="135" y="91" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1603469698816" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603815346706">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1603821614434">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1603477766082" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1603815346706" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603815346704">
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1603821614434" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1603821614433">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1603477766080" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1603815346704" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603815346703">
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1603821614433" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1603821614433">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1603477766079" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1603815346703" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603815346705">
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1603821614433" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1603821614434">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1603477766081" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1603815346705" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1603821614434" />
     <state x="144" y="92" key="MergeDialog" timestamp="1603469660786">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="144" y="92" key="MergeDialog/0.23.1440.797@0.23.1440.797" timestamp="1603469660786" />
-    <state x="229" y="60" key="SettingsEditor" timestamp="1603424917874">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="229" y="60" key="SettingsEditor" timestamp="1603818234419">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1603424917874" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603815534584">
+    <state x="229" y="60" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1603818234419" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1603815818632">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603476874807" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1603815534584" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.798@0.23.1440.798" timestamp="1603815818632" />
     <state x="485" y="59" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603469700129">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
